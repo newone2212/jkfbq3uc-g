@@ -1,0 +1,20 @@
+{
+    "bot_name": "ACTA Virtual Assistant",
+    "xpath": {
+        "meet_invalid_text": "//*[contains(text(), 'This meeting link is invalid')]",
+        "join_audi_btn": "//button[@aria-label='Join Audio']",
+        "cam_btn": "//button[@aria-label='Stop Video']",
+        "mic_btn": "//button[@aria-label='Mute']",
+        "username_text": "//input[@id='input-for-name']",
+        "join_btn": "//button[text()='Join']",
+        "meet_not_started_text": "//*[text()='The meeting has not started']",
+        "audioOptionMenu_btn": "//button[@id='audioOptionMenu']",
+        "disable_video_btn": "//*[@aria-label='Disable video receiving']",
+        "participants_btn": "//button[contains(@aria-label, 'participants')]",
+        "attendees": "//div[contains(@id,'participants-list')]",
+        "leave_end_btn": "//button[text()='Leave' or text()='End']",
+        "leave_end_final_btn": "//button[text()='Leave Meeting' or text()='End Meeting for All']",
+	    "meet_end_text": "//*[text()='OK' or text()='Exit']",
+        "in_lobby_text": "//*[text()='Please wait, the meeting host will let you in soon.']"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "login": {
+        "email_id": "acta.assistant@acta.ai",
+        "password": "Acta@123"
+    },
+    "url": {
+        "google_sign_in_url": "https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+    },
+    "xpath": {
+        "email_text": "//input[@type='email']",
+        "email_next": "//span[contains(text(), 'Next')]",
+        "password_text": "//input[@type='password']",
+        "password_next": "//span[contains(text(), 'Next')]",
+        "mic_btn": "//*[@aria-label='Turn off microphone (ctrl + d)']",
+        "mic_btn_attribute": "data-is-muted",
+        "cam_btn": "//div[@aria-label='Turn off camera (ctrl + e)']",
+        "cam_btn_attribute": "data-is-muted",
+        "check_audio_video_btn": "//span[contains(text(),'Check your audio and video')]/..",
+        "audio_and_video_tab": "//span[contains(text(), 'Audio & video')]/../..",
+        "speaker_dropdown": "//button[contains(@aria-label, 'Speaker: Default')]",
+        "speaker_dropdown_alt": "//*[@id='yDmH0d']/div[3]/div[2]/div/div/div/div/div[2]/span/div/div[2]/div/div[1]/div[3]/div/div/div[1]",
+        "audio_and_video_tab_close": "//button[@aria-label='Close']",
+        "ask_to_join_btn": "//span[contains(text(), 'Ask to join') or contains(text(), 'Join now')]",
+        "join_now_btn": "//span[contains(text(), 'Join now')]",
+        "show_people_btn": "//button[@aria-label='Show everyone']",
+        "people_list": "//div[@role='listitem']",
+        "call_end_btn": "//i[contains(text(), 'call_end')]",
+        "meet_end_screen": "//*[contains(text(),'Return to home screen')]",
+        "in_lobby_text": "//*[text()='Asking to join...']"	
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "login": {
+        "email_id": "acta.assistant@acta.ai",
+        "password": "Acta@123"
+    },
+    "xpath": {
+        "login_btn": "//*[@id='main-header']/div/div[3]/nav/ul/li[3]/button",
+        "email_input": "//input[@name='email']",
+        "email_continue_btn": "//button[@id='Continue-with-email']//p/..",
+        "password_input": "//input[@id='password']",
+        "password_login_btn": "//*[@id='root']/div[4]/div[1]/div/div/div[2]/form/button",
+        "enter_event_btn": "//button//p[contains(text(),  'Enter event')]/..",
+        "enter_btn": "//button//p[text()='Enter']/..",
+        "test_speaker_mic_btn": "//button[text()='Test speaker and mic']",
+        "audio_settings_close_btn": "//button[@class='close btn-close']",
+        "enter_venue_btn": "//button//p[contains(text(), 'Enter venue')]/..",
+        "enter_venue_without_mic": "//button[text()='Join without camera & mic']",
+        "view_schedule_btn": "//div//*[text()='View Schedule']/..",
+        "after_meet_rating": "//*[text()='How was your experience with Airmeet?']",
+        "event_started_text": "//*[contains(text(), 'STARTED')]",
+        "event_ended_text": "//*[contains(text(), 'ENDED')]",
+        "schedule_text": "//*[text()='Schedule']",
+        "live_text": "//*[text()='Live']",
+        "paused_text": "//*[text()='Paused']",
+        "completed_text": "//*[text()='Completed']",
+        "show_people_btn": "//*[@id='sidebarWrapper']/div/div[1]/div",
+        "num_people_text": "//h1[contains(text(), 'People')]",
+        "people_list": "//*[@id='sidebarWrapper']/div[2]/div/div[2]/div/div[2]/div[1]/div/div/div"
+    }
+}

@@ -1,0 +1,7 @@
+PyVirtualDisplay==2.2
+psutil==5.8.0
+httpx==0.18.2
+pydantic==1.8.2
+selenium==3.141.0
+webdriver_manager==3.4.2
+fastapi==0.65.2

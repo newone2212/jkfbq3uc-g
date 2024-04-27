@@ -1,0 +1,16 @@
+{
+    "bot_name": "ACTA Virtual Assistant",
+    "xpath": {
+        "join_meet_btn": "//a[text()='Join my meeting']",
+        "save_and_continue_btn": "//button[text()='Save and continue']",
+        "cam_btn": "//*[@aria-label='Share camera after join' and @aria-checked='true']",
+        "mic_btn": "//*[@aria-label='Share microphone after join' and @aria-checked='true']",
+        "ask_to_join_btn": "//*[text()='Ask to join']",
+        "name_input": "//input[@data-automation-id='change-name-and-email-dialog__edit-name']",
+        "submit_name_btn": "//button[@data-automation-id='change-name-and-email-dialog__submit']",
+        "new_hardware_text": "//*[text()='New hardware detected']",
+        "no_btn": "//button[text()='No']",
+        "attendees": "//*[@data-name]",
+        "show_ppl_btn": "//button[@aria-label='People']"
+    }
+}

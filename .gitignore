@@ -1,0 +1,11 @@
+.vscode/
+*.mp3
+*.wav
+*.flac
+*.csv
+env/
+__pycache__/
+*.log
+*.out
+*.bck
+*.ipynb

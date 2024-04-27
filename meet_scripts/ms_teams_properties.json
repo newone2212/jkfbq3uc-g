@@ -1,0 +1,18 @@
+{
+    "bot_name": "ACTA Virtual Assistant",
+    "xpath": {
+        "join_on_web_btn": "//button[@data-tid='joinOnWeb']",
+        "username_text": "//input[@id='username']",
+        "cam_btn": "//button[@track-summary='Toggle camera OFF in meeting pre join screen']",
+        "mic_btn": "//button[@track-summary='Toggle microphone OFF in meeting pre join screen']",
+        "settings_btn": "//button[@aria-label='Open device settings']",
+        "speaker_btn": "//div[@data-tid='speaker-settings']//button",
+        "join_now_btn": "//button[@track-summary='join meeting from pre-join screen']",
+        "roster_btn": "//button[@id='roster-button']",
+        "attendees": "//button[@class='roster-list-title']//span[@class='toggle-number']",
+	    "in_lobby_text": "//*[@id='pre-join-title']",
+        "participant_list": "//li[@class='item vs-repeat-repeated-element']",
+        "participants": "//span[contains(@aria-label, 'In this meeting')]",
+        "num_participants": "//li[contains(@data-tid, 'participantsInCall')]"
+    }
+}
